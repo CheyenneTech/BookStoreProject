@@ -271,7 +271,7 @@ nav {
     margin: 0px auto;
     box-sizing: border-box;
     max-width: 100%;
-    min-height: 40vh;
+    min-height: 50vh;
     display: flex;
     background-color: #fff;
 }
