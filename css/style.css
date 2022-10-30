@@ -127,7 +127,7 @@ nav {
 }
 
 .hamburger.is-active span:nth-child(3) {
-    transform: translate(-3px, 3px) rotate(-45deg);
+    transform: translate(-3px, 2.6px) rotate(-45deg);
 }
 
 .hamburger.is-active:hover span {
