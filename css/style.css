@@ -181,7 +181,7 @@ nav {
     min-height: 60vh;
     display: flex;
     align-items: center;
-    background-image: url(img/hero2.jpg);
+    background-image: url('../img/hero2.jpg');
     background-position: center left;
     background-size: cover;
     
