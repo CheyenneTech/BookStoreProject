@@ -303,6 +303,31 @@ nav {
 .bookclub-button {
 
 }
+/* titles ----------------------------------------- */
+
+#titles {
+    
+}
+
+.titles-container {
+    padding: 80px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    max-width: 100%;
+    min-height: 50vh;
+    display: flex;
+    background-color: #fff;
+}
+
+.titles-content {
+
+}
+
+.titles-button {
+
+}
+
+
 
 /* reviews ----------------------------------------- */
 
@@ -311,7 +336,13 @@ nav {
 }
 
 .reviews-container {
-
+    padding: 80px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    max-width: 100%;
+    min-height: 70vh;
+    display: flex;
+    background-color: var(--light);
 }
 
 .reviews-content {
@@ -323,8 +354,39 @@ nav {
 }
 
 .see-reviews-button {
+
+}
+
+/* resources --------------------------------------- */
+
+#resources {
+   
     
 }
+
+#resources img {
+
+}
+
+.resources-container {
+    padding: 80px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    max-width: 100%;
+    min-height: 50vh;
+    display: flex;
+    background-color: #fff;
+    background-image: url(/img/childrenreading.jpeg);
+}
+
+.resources-content {
+
+}
+
+.resources-button {
+
+}
+
 
 /* animation ---------------------------------------- */
 
