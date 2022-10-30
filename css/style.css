@@ -376,7 +376,7 @@ nav {
     min-height: 50vh;
     display: flex;
     background-color: #fff;
-    background-image: url(/img/childrenreading.jpeg);
+    background-image: url('../img/childrenreading.jpeg');
 }
 
 .resources-content {
