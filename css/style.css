@@ -386,7 +386,17 @@ nav {
 .resources-button {
 
 }
+/* contact ----------------------------------------- */
 
+.contact-container {
+    padding: 80px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    max-width: 100%;
+    min-height: 50vh;
+    display: flex;
+    background-color: var(--primary);
+}
 
 /* animation ---------------------------------------- */
 
