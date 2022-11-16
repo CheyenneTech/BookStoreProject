@@ -196,6 +196,7 @@ nav {
     margin: 0 auto;
     margin-top: 570px;
     z-index: 1;
+    
 
     
 }
@@ -308,13 +309,14 @@ nav {
     font-family: 'agrandir-grandheavy', sans-serif;
     text-transform: uppercase;
     border-color: #fff;
-    top: 2130px;
+    top: 2160px;
     left: 150px;
     border-radius: 10px;
     box-shadow: 0.5px 0.5px 5px #ffb3c9af;
     transition: 0.4s;
     font-size: 12px;
     font-weight:600;
+    
 }
 
 .bookclub-button:hover {
@@ -323,6 +325,7 @@ nav {
     color: var(--primary);
     border-color: #fff;
     font-weight:600;
+    cursor: pointer;
 }
 
 #bookclub img {
@@ -339,6 +342,7 @@ nav {
     color: var(--light);
     margin: 6px auto;
     text-shadow: 0.5px 0.5px 1px #140b0d54;
+    flex-grow: 1;
 }
 
 #bookclub p {
@@ -348,6 +352,7 @@ nav {
     max-width: 270px;
     margin: 7px auto;
     text-transform: uppercase;
+   
     padding: 5px;
     text-shadow: 0.5px 0.5px 1px #140b0d3d;
 }
@@ -369,7 +374,8 @@ nav {
     margin: 6px auto;
     text-shadow: 0.5px 0.5px 1px #140b0d54;
     position: absolute;
-    top: 2230px;
+    top: 2260px;
+    
 }
 
 #titles p {
@@ -418,6 +424,7 @@ nav {
     transition: 0.4s;
     font-size: 12px;
     font-weight:600;
+    
 }
 
 .titles-button:hover {
@@ -426,6 +433,7 @@ nav {
     color: var(--primary);
     border-color: #fff;
     font-weight:600;
+    cursor: pointer;
 }
 
 /* resources --------------------------------------- */
@@ -453,7 +461,15 @@ nav {
 }
 
 .resources-content {
-
+    flex: 1;
+    margin: 3px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: column;
 }
 
 .resources-button {
@@ -479,6 +495,7 @@ nav {
     background-color: #fff;
     color: var(--light);
     font-weight: 600;
+    cursor: pointer;
 }
 
 /* contact ----------------------------------------- */
@@ -505,22 +522,16 @@ nav {
     flex-direction: column;
 }
 
-#contact h1 {
-    color: #1F2B21;
-    font-family: 'Playfair Display';
-    font-size: 40px;
-    text-align: center;
-    text-shadow: 0.5px 0.5px 1px #140b0d54;
-}
-
 #contact p {
     font-family: 'agrandir-grandheavy', sans-serif;
     font-size: 15px;
     color: #1F2B21;
     font-weight: 500;
-    
+    text-transform: uppercase;
     text-align: center;
     text-shadow: 0.5px 0.5px 1px #140b0d54;
+    margin: 0 auto;
+    
     
 
 }
@@ -563,14 +574,6 @@ nav {
 }
 
 @media (min-width: 768px) {
-    #hero h1 {
-        margin: 0 auto;
-        text-align: center;
-        font-size: 43px;
-    }
-}
-
-@media (min-width: 800px) {
     .hamburger {
         display: none;
     }
@@ -633,8 +636,7 @@ nav {
         text-shadow: 1px 1px 3px#2d1018;
         text-align: center;
     }
-}
-@media (min-width: 810px) {
+
     .welcome-container {
         
         min-width: 20em;
@@ -673,4 +675,7 @@ nav {
        opacity: 1;
        transform: translateX(0);
     }
- }   
+ } 
+
+
+
