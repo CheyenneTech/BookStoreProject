@@ -3,13 +3,12 @@
     --light: #614529;
     --dark: #1F2B21;
 }
-
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    
-    font-weight: bolder;
+    border: 0;
+    font-size: 100%;
+    list-style: none;
 }
 
 
@@ -309,7 +308,7 @@ nav {
     font-family: 'agrandir-grandheavy', sans-serif;
     text-transform: uppercase;
     border-color: #fff;
-    top: 2160px;
+    top: 2090px;
     left: 150px;
     border-radius: 10px;
     box-shadow: 0.5px 0.5px 5px #ffb3c9af;
@@ -343,16 +342,17 @@ nav {
     margin: 6px auto;
     text-shadow: 0.5px 0.5px 1px #140b0d54;
     flex-grow: 1;
+    font-size: 20px;
 }
 
 #bookclub p {
     font-family: 'agrandir-grandheavy', sans-serif;
-    font-size: 10px;
+    font-size: 9.4px;
     text-align: justify;
     max-width: 270px;
     margin: 7px auto;
     text-transform: uppercase;
-   
+    font-weight: 600;
     padding: 5px;
     text-shadow: 0.5px 0.5px 1px #140b0d3d;
 }
@@ -362,7 +362,7 @@ nav {
 
 #titles img {
     max-width: 200px;
-    padding: 20px;
+    padding: 16px;
     
 }
 
@@ -374,14 +374,15 @@ nav {
     margin: 6px auto;
     text-shadow: 0.5px 0.5px 1px #140b0d54;
     position: absolute;
-    top: 2260px;
+    top: 2200px;
+    font-size: 20px;
     
 }
 
 #titles p {
     font-family: 'agrandir-grandheavy', sans-serif;
     font-weight: 100;
-    font-size: 12px;
+    font-size: 10px;
     text-align: justify;
     text-shadow: 0.5px 0.5px 1px #140b0d54;
 }
@@ -417,7 +418,7 @@ nav {
     font-family: 'agrandir-grandheavy', sans-serif;
     text-transform: uppercase;
     border-color: #fff;
-    top: 2640px;
+    top: 2575px;
     left: 150px;
     border-radius: 10px;
     box-shadow: 0.5px 0.5px 5px #ffb3c9af;
@@ -481,7 +482,7 @@ nav {
     font-family: 'agrandir-grandheavy', sans-serif;
     text-transform: uppercase;
     border-color: #fff;
-    top: 3070px;
+    top: 3010px;
     left: 150px;
     border-radius: 10px;
     box-shadow: 0.5px 0.5px 5px #614529;
