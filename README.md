@@ -1,2 +1,2 @@
 # Book StoreProject
-This is my final project for Code Louisville's Web Development 1 course. 
+In this project I applied my learned HTML, CSS, and Javascript skills to create this faux bookstore website. The goal was to make an easy to read and navigate site. To achieve this I included the following required features -- A responsive menu with Javascript, Added transition animation to an element on hover with hamburger menu, and a score of 60 or better pagespeed insights. I also added buttons with hover effects and embedded a map in the contact section.
